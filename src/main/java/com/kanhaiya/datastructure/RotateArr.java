@@ -100,6 +100,7 @@ class RotateArrV4BlockMove {
 
     public static void leftRotateRec(int arr[], int i,
                                      int d, int n) {
+        d%=n;
         /* Return If number of elements to be rotated
         is zero or equal to array size */
         if (d == 0 || d == n)
