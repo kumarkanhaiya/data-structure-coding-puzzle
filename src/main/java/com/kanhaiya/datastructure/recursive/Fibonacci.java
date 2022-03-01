@@ -1,4 +1,4 @@
-package com.kanhaiya.datastructure;
+package com.kanhaiya.datastructure.recursive;
 
 import java.util.HashMap;
 import java.util.Map;

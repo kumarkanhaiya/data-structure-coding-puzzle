@@ -1,4 +1,4 @@
-package com.kanhaiya.datastructure;
+package com.kanhaiya.datastructure.recursive;
 
 public class LinkedListReversal {
     static class Node {

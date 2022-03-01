@@ -1,4 +1,4 @@
-package com.kanhaiya.datastructure;
+package com.kanhaiya.datastructure.recursive;
 
 public class MergeSort {
     public static void main(String[] args) {

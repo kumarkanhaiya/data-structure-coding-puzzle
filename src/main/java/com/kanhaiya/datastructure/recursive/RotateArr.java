@@ -1,4 +1,4 @@
-package com.kanhaiya.datastructure;
+package com.kanhaiya.datastructure.recursive;
 
 public class RotateArr {
     static void leftRotate(int[] arr, int n, int d) {
