@@ -38,7 +38,7 @@ public class SubSequence {
         return false;
     }*/
 
-    public static boolean isValidSubsequence(List<Integer> array, List<Integer> sequence) {
+    /*public static boolean isValidSubsequence(List<Integer> array, List<Integer> sequence) {
         // Write your code here.
         int arrIndex = 0;
         int seqIndex = 0;
@@ -47,6 +47,17 @@ public class SubSequence {
                seqIndex++;
             }
             arrIndex++;
+        }
+        return seqIndex == sequence.size();
+    }*/
+
+    public static boolean isValidSubsequence(List<Integer> array, List<Integer> sequence) {
+        // Write your code here.
+        int seqIndex = 0;
+        for(int num : array){
+            if(Objects.equals(sequence.get(seqIndex), num)){
+                seqIndex++;
+            }
         }
         return seqIndex == sequence.size();
     }
