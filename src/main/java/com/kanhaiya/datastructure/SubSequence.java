@@ -6,8 +6,8 @@ import java.util.Objects;
 
 public class SubSequence {
     public static void main(String[] args) {
-        List arrayI = Arrays.asList(5, 1, 22, 25, 6, -1, 8, 10, 11, 11, 11, 11);
-        List sequenceI = Arrays.asList(1, 6, -1, 10, 11, 11, 11, 11);
+        List<Integer> arrayI = Arrays.asList(5, 1, 22, 25, 6, -1, 8, 10, 11, 11, 11, 11);
+        List<Integer> sequenceI = Arrays.asList(1, 6, -1, 10, 11, 11, 11, 11);
         System.out.println(isValidSubsequence(arrayI, sequenceI));
     }
 
